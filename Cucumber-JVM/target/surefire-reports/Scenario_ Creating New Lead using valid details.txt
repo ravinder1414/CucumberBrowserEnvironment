@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Creating New Lead using valid details
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 184.983 sec - in Scenario: Creating New Lead using valid details

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "new-lead-creation-feature-file",
+    "description": "",
+    "name": "New Lead Creation feature file",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 223925038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NatureLoginStepDefination.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 259341731,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NewLeadCreationStepDefination.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 196757620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "id": "new-lead-creation-feature-file;creating-new-lead-using-valid-details",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 7355728310,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NatureLoginStepDefination.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5701567920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NewLeadCreationStepDefination.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5618939700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.beforeScenario()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Creating New Lead using valid details",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 18143136797,
+              "status": "passed"
+            },
+            "name": "I am on Orion CLS Home page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "NewLeadCreationStepDefination.i_am_on_Orion_CLS_Home_page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2193897726,
+              "status": "passed"
+            },
+            "name": "I click on Admission Link",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "NewLeadCreationStepDefination.i_click_on_Admission_Link()"
+            }
+          },
+          {
+            "result": {
+              "duration": 18472180348,
+              "status": "passed"
+            },
+            "name": "I click on Admission Manager and Add New Lead/Referral Link",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "NewLeadCreationStepDefination.i_click_on_Admission_Manager_and_Add_New_Lead_Referral_Link()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8086343525,
+              "status": "passed"
+            },
+            "name": "I fill all the required details for New Referral",
+            "keyword": "When ",
+            "line": 8,
+            "match": {
+              "location": "NewLeadCreationStepDefination.i_fill_all_the_required_details_for_New_Referral()"
+            }
+          },
+          {
+            "result": {
+              "duration": 118695134821,
+              "status": "passed"
+            },
+            "name": "I should be able to see the created new Lead",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "location": "NewLeadCreationStepDefination.i_should_be_able_to_see_the_created_new_Lead()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/NewLeadCreation.feature"
+  }
+]
